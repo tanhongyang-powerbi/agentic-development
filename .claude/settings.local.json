@@ -18,7 +18,16 @@
       "Bash(PYTHONIOENCODING=utf-8 pbir rm \"Sales.Report/agentic development.Page\" -f)",
       "Bash(PYTHONIOENCODING=utf-8 pbir rm \"Sales.Report/agentic development by claude lololol.Page\" -f)",
       "Bash(PYTHONIOENCODING=utf-8 pbir ls \"Sales.Report\")",
-      "Bash(PYTHONIOENCODING=utf-8 pbir validate \"Sales.Report\")"
+      "Bash(PYTHONIOENCODING=utf-8 pbir validate \"Sales.Report\")",
+      "Bash(pbir add page \"Sales.Report\" -n \"Claude generated agentic page\")",
+      "Bash(pbir model \"Sales.Report\")",
+      "Bash(pbir connect)",
+      "Bash(pbir connect \"Sales.Report\")",
+      "Bash(pbir add page \"Sales.Report\" -n \"Claude generated agentic page\" --thick)",
+      "Bash(pbir add page --help)",
+      "Bash(pbir ls \"Sales.Report\")",
+      "Bash(pbir add page \"Sales.Report/Sales.Page\" -n \"Claude generated agentic page\")",
+      "Bash(pbir validate \"Sales.Report\")"
     ]
   }
 }
